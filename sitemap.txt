@@ -1,2 +1,4 @@
-http://example.com/2022/07/24/hello-world/
-http://example.com/
+http://wujundehuda.github.io/tags/index.html
+http://wujundehuda.github.io/categories/index.html
+http://wujundehuda.github.io/2022/07/24/hello-world/
+http://wujundehuda.github.io/

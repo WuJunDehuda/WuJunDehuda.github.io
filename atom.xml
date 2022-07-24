@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>WuJean的随想录</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://wujundehuda.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://wujundehuda.github.io/"/>
   <updated>2022-07-24T08:51:31.154Z</updated>
-  <id>http://example.com/</id>
+  <id>http://wujundehuda.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>WuJean</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/07/24/hello-world/"/>
-    <id>http://example.com/2022/07/24/hello-world/</id>
+    <link href="http://wujundehuda.github.io/2022/07/24/hello-world/"/>
+    <id>http://wujundehuda.github.io/2022/07/24/hello-world/</id>
     <published>2022-07-24T08:51:31.153Z</published>
     <updated>2022-07-24T08:51:31.154Z</updated>
     
