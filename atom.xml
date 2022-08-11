@@ -6,7 +6,7 @@
   <link href="http://wujundehuda.github.io/atom.xml" rel="self"/>
   
   <link href="http://wujundehuda.github.io/"/>
-  <updated>2022-08-06T01:24:22.011Z</updated>
+  <updated>2022-08-11T01:40:47.850Z</updated>
   <id>http://wujundehuda.github.io/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Unix环境高级编程开篇-apue.h配置</title>
+    <link href="http://wujundehuda.github.io/2022/08/11/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%BC%80%E7%AF%87-apue-h%E9%85%8D%E7%BD%AE/"/>
+    <id>http://wujundehuda.github.io/2022/08/11/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%BC%80%E7%AF%87-apue-h%E9%85%8D%E7%BD%AE/</id>
+    <published>2022-08-11T01:38:43.000Z</published>
+    <updated>2022-08-11T01:40:47.850Z</updated>
+    
+    <content type="html"><![CDATA[<p>书中大部分代码都#include “apue”头文件，本文件记录了配置apue头文件的过程。</p><h2 id="一、下载该头文件"><a href="#一、下载该头文件" class="headerlink" title="一、下载该头文件"></a>一、下载该头文件</h2><ul><li>使用命令行下载<code>wget http://www.apuebook.com/src.3e.tar.gz</code></li><li>到官网手动下载 <a href="http://www.apuebook.com/apue3e.html">传送门</a></li></ul><h2 id="二、解压"><a href="#二、解压" class="headerlink" title="二、解压"></a>二、解压</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf src.3e.tar.gz</span><br></pre></td></tr></table></figure><h2 id="三、复制两个文件"><a href="#三、复制两个文件" class="headerlink" title="三、复制两个文件"></a>三、复制两个文件</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/home/Downloads/apu<span class="number">.3</span>e/include    <span class="comment">/* apue.h */</span></span><br><span class="line">/home/Downloads/apu<span class="number">.3</span>e/lib       <span class="comment">/* error.c */</span></span><br><span class="line">##将两个文件拷贝到默认的c语言库中</span><br><span class="line">cp ./include/apue.h ./lib/error.c /usr/include</span><br></pre></td></tr></table></figure><h2 id="四、修改文件内容"><a href="#四、修改文件内容" class="headerlink" title="四、修改文件内容"></a>四、修改文件内容</h2><h4 id="在apue-h-头文件的最后一行前添加一行代码："><a href="#在apue-h-头文件的最后一行前添加一行代码：" class="headerlink" title="在apue.h 头文件的最后一行前添加一行代码："></a>在apue.h 头文件的最后一行前添加一行代码：</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#include &quot;erro.c&quot;</span><br></pre></td></tr></table></figure><p>最后效果如下</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;error.c&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span>  <span class="comment">/* _APUE_H */</span></span></span><br></pre></td></tr></table></figure><h2 id="五、结语"><a href="#五、结语" class="headerlink" title="五、结语"></a>五、结语</h2><p>最后便可使用apue头文件，不需要再次编译apue.3e</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;书中大部分代码都#include “apue”头文件，本文件记录了配置apue头文件的过程。&lt;/p&gt;
+&lt;h2 id=&quot;一、下载该头文件&quot;&gt;&lt;a href=&quot;#一、下载该头文件&quot; class=&quot;headerlink&quot; title=&quot;一、下载该头文件&quot;&gt;&lt;/a&gt;一、下载该头文件</summary>
+      
+    
+    
+    
+    
+    <category term="Unix环境高级编程" scheme="http://wujundehuda.github.io/tags/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux终端命令行神器screen</title>
     <link href="http://wujundehuda.github.io/2022/08/06/Linux%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%A5%9E%E5%99%A8screen/"/>
     <id>http://wujundehuda.github.io/2022/08/06/Linux%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%A5%9E%E5%99%A8screen/</id>
     <published>2022-08-06T01:24:06.000Z</published>
-    <updated>2022-08-06T01:24:22.011Z</updated>
+    <updated>2022-08-06T03:28:44.098Z</updated>
     
-    <content type="html"><![CDATA[<p>screen的功能<br>screen的功能大体有三个：<br>● 会话恢复：只要Screen本身没有终止，在其内部运行的会话都可以恢复。这一点对于远程登录的用户特别有用——即使网络连接中断，用户也不会失去对已经打开的命令行会话的控制。只要再次登录到主机上执行screen -r就可以恢复会话的运行。同样在暂时离开的时候，也可以执行分离命令detach，在保证里面的程序正常运行的情况下让Screen挂起（切换到后台）。这一点和图形界面下的VNC很相似。<br>● 多窗口：在Screen环境下，所有的会话都独立的运行，并拥有各自的编号、输入、输出和窗口缓存。用户可以通过快捷键在不同的窗口下切换，并可以自由的重定向各个窗口的输入和输出。<br>● 会话共享：Screen可以让一个或多个用户从不同终端多次登录一个会话，并共享会话的所有特性（比如可以看到完全相同的输出）。它同时提供了窗口访问权限的机制，可以对窗口进行密码保护。<br>这三个功能，其实互相交织，组成screen功能繁多的命令集。<br>sudo apt install screen<br>screen命令集<br>screen，通常的命令格式为：<br>screen [-opts] [cmd [args]]<br>通常情况下，使用一下基础命令即可，高阶命令过多，比较难记。<br>注意：<br>● 命令区分大小写<br>状态介绍<br>通常情况下，screen创建的虚拟终端，有两个工作模式：<br>● Attached：表示当前screen正在作为主终端使用，为活跃状态。<br>● Detached：表示当前screen正在后台使用，为非激发状态。<br>通常情况下，不需要关注上面的状态。<br>基础命令<br>这里列举一些我认为常用的screen命令，使用以下命令基本满足日常使用。<br>● 查询screen提示：<br>screen -help<br>● 终端列表<br>screen -ls<br>● 新建终端</p><h1 id="新建一个叫test的虚拟终端"><a href="#新建一个叫test的虚拟终端" class="headerlink" title="新建一个叫test的虚拟终端"></a>新建一个叫test的虚拟终端</h1><h1 id="注意S为大写"><a href="#注意S为大写" class="headerlink" title="注意S为大写"></a>注意S为大写</h1><p>screen -S test<br>screen -R test</p>]]></content>
+    <content type="html"><![CDATA[<p>screen的功能<br>screen的功能大体有三个：<br>● 会话恢复：只要Screen本身没有终止，在其内部运行的会话都可以恢复。这一点对于远程登录的用户特别有用——即使网络连接中断，用户也不会失去对已经打开的命令行会话的控制。只要再次登录到主机上执行screen -r就可以恢复会话的运行。同样在暂时离开的时候，也可以执行分离命令detach，在保证里面的程序正常运行的情况下让Screen挂起（切换到后台）。这一点和图形界面下的VNC很相似。<br>● 多窗口：在Screen环境下，所有的会话都独立的运行，并拥有各自的编号、输入、输出和窗口缓存。用户可以通过快捷键在不同的窗口下切换，并可以自由的重定向各个窗口的输入和输出。<br>● 会话共享：Screen可以让一个或多个用户从不同终端多次登录一个会话，并共享会话的所有特性（比如可以看到完全相同的输出）。它同时提供了窗口访问权限的机制，可以对窗口进行密码保护。<br>这三个功能，其实互相交织，组成screen功能繁多的命令集。<br><code>sudo apt install screen</code><br>screen命令集<br>screen，通常的命令格式为：<br><code>screen [-opts] [cmd [args]]</code><br>通常情况下，使用一下基础命令即可，高阶命令过多，比较难记。<br>注意：<br>● 命令区分大小写<br>状态介绍<br>通常情况下，screen创建的虚拟终端，有两个工作模式：<br>● Attached：表示当前screen正在作为主终端使用，为活跃状态。<br>● Detached：表示当前screen正在后台使用，为非激发状态。<br>通常情况下，不需要关注上面的状态。<br>基础命令<br>这里列举一些我认为常用的screen命令，使用以下命令基本满足日常使用。<br>● 查询screen提示：<br><code>screen -help</code><br>● 终端列表<br><code>screen -ls</code><br>● 新建终端</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#新建一个叫test的虚拟终端</span><br><span class="line">#注意S为大写</span><br><span class="line"></span><br><span class="line">screen -S test</span><br><span class="line">screen -R test</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -33,6 +56,8 @@
     
     
     
+    
+    <category term="Linux工具" scheme="http://wujundehuda.github.io/tags/Linux%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
