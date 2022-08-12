@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wujundehuda.github.io/messageboard/index.html</loc>
+    
+    <lastmod>2022-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wujundehuda.github.io/about/index.html</loc>
+    
+    <lastmod>2022-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://wujundehuda.github.io/link/index.html</loc>
     
     <lastmod>2022-08-12</lastmod>
