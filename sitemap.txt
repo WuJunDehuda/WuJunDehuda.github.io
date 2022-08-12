@@ -11,6 +11,6 @@ http://wujundehuda.github.io/2022/07/24/hello-world/
 http://wujundehuda.github.io/
 http://wujundehuda.github.io/tags/Linux/
 http://wujundehuda.github.io/tags/Docker/
-http://wujundehuda.github.io/categories/Linux%E5%B7%A5%E5%85%B7/
 http://wujundehuda.github.io/categories/Linux%E5%AD%A6%E4%B9%A0/
+http://wujundehuda.github.io/categories/Linux%E5%B7%A5%E5%85%B7/
 http://wujundehuda.github.io/categories/%E6%8A%98%E8%85%BE%E4%B8%80%E5%8F%B0%E5%B0%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/
