@@ -2,45 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wujundehuda.github.io/2022/08/12/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E7%AC%AC%E5%85%AB%E7%AB%A0-%E8%BF%9B%E7%A8%8B%E6%8E%A7%E5%88%B6/</loc>
-    
-    <lastmod>2022-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://wujundehuda.github.io/2022/08/11/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%96%87%E4%BB%B6I-O/</loc>
-    
-    <lastmod>2022-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://wujundehuda.github.io/2022/08/13/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0-%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1/</loc>
-    
-    <lastmod>2022-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://wujundehuda.github.io/2022/08/11/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%BC%80%E7%AF%87-apue-h%E9%85%8D%E7%BD%AE/</loc>
-    
-    <lastmod>2022-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://wujundehuda.github.io/messageboard/index.html</loc>
     
-    <lastmod>2022-08-13</lastmod>
+    <lastmod>2022-08-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -59,6 +23,33 @@
     <loc>http://wujundehuda.github.io/link/index.html</loc>
     
     <lastmod>2022-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wujundehuda.github.io/2022/08/11/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%96%87%E4%BB%B6I-O/</loc>
+    
+    <lastmod>2022-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wujundehuda.github.io/2022/08/12/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E7%AC%AC%E5%85%AB%E7%AB%A0-%E8%BF%9B%E7%A8%8B%E6%8E%A7%E5%88%B6/</loc>
+    
+    <lastmod>2022-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wujundehuda.github.io/2022/08/11/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%BC%80%E7%AF%87-apue-h%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2022-08-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -101,15 +92,6 @@
   </url>
   
   <url>
-    <loc>http://wujundehuda.github.io/link/index%202.html</loc>
-    
-    <lastmod>2022-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://wujundehuda.github.io/categories/index.html</loc>
     
     <lastmod>2022-07-24</lastmod>
@@ -130,7 +112,7 @@
 
   <url>
     <loc>http://wujundehuda.github.io/</loc>
-    <lastmod>2022-08-13</lastmod>
+    <lastmod>2022-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,14 +120,14 @@
   
   <url>
     <loc>http://wujundehuda.github.io/tags/Linux/</loc>
-    <lastmod>2022-08-13</lastmod>
+    <lastmod>2022-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wujundehuda.github.io/tags/Docker/</loc>
-    <lastmod>2022-08-13</lastmod>
+    <lastmod>2022-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -153,22 +135,22 @@
 
   
   <url>
-    <loc>http://wujundehuda.github.io/categories/Linux%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2022-08-13</lastmod>
+    <loc>http://wujundehuda.github.io/categories/Linux%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2022-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://wujundehuda.github.io/categories/Linux%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-08-13</lastmod>
+    <loc>http://wujundehuda.github.io/categories/Linux%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wujundehuda.github.io/categories/%E6%8A%98%E8%85%BE%E4%B8%80%E5%8F%B0%E5%B0%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2022-08-13</lastmod>
+    <lastmod>2022-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
