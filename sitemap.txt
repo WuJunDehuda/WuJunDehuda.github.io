@@ -19,13 +19,15 @@ http://wujundehuda.github.io/categories/index.html
 http://wujundehuda.github.io/2022/07/24/hello-world/
 http://wujundehuda.github.io/
 http://wujundehuda.github.io/tags/Linux/
-http://wujundehuda.github.io/tags/Docker/
 http://wujundehuda.github.io/tags/%E5%AD%A6%E4%B9%A0/
+http://wujundehuda.github.io/tags/Docker/
 http://wujundehuda.github.io/tags/%E6%81%8B%E7%88%B1/
 http://wujundehuda.github.io/tags/%E7%94%9F%E6%B4%BB/
 http://wujundehuda.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
+http://wujundehuda.github.io/tags/LaTeX/
 http://wujundehuda.github.io/categories/Linux%E5%B7%A5%E5%85%B7/
 http://wujundehuda.github.io/categories/Unix%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/
 http://wujundehuda.github.io/categories/%E6%81%8B%E7%88%B1%E5%91%A8%E8%AE%B0/
 http://wujundehuda.github.io/categories/%E6%8A%98%E8%85%BE%E4%B8%80%E5%8F%B0%E5%B0%8F%E6%9C%8D%E5%8A%A1%E5%99%A8/
 http://wujundehuda.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
+http://wujundehuda.github.io/categories/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/
