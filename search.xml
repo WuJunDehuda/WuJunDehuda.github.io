@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>PySide6配置及使用</title>
+      <link href="/2022/09/20/PySide6%E9%85%8D%E7%BD%AE%E5%8F%8A%E4%BD%BF%E7%94%A8/"/>
+      <url>/2022/09/20/PySide6%E9%85%8D%E7%BD%AE%E5%8F%8A%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<p>本文记录了使用PySide6开发一款全景图拼接app的图形界面</p><p>包含PySide6的安装以及Qt Designer的使用及信号与槽函数的链接</p><h2 id="一、PySide6的安装"><a href="#一、PySide6的安装" class="headerlink" title="一、PySide6的安装"></a>一、PySide6的安装</h2><h2 id="1-1-使用conda创建python虚拟环境"><a href="#1-1-使用conda创建python虚拟环境" class="headerlink" title="1.1 使用conda创建python虚拟环境"></a>1.1 使用conda创建python虚拟环境</h2><p>我们使用conda创建虚拟环境，便于安装相应版本的包和打包应用</p><h4 id="1-1-1-安装conda"><a href="#1-1-1-安装conda" class="headerlink" title="1.1.1 安装conda"></a>1.1.1 安装conda</h4><p>conda 分为 anaconda 和 miniconda，anaconda 是一个包含了许多常用库的集合版本，miniconda 是精简版本（只包含conda、pip、zlib、python 以及它们所需的包），剩余的通过 conda install command 命令自行安装即可；</p><ul><li>miniconda 官网：<a href="https://conda.io/miniconda.html">https://conda.io/miniconda.html</a></li><li>anaconda 官网：<a href="https://www.anaconda.com/download">https://www.anaconda.com/download</a></li></ul><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">## 检查conda，返回版本号则安装成功</span><br><span class="line">conda --version</span><br></pre></td></tr></table></figure><h4 id="1-1-2-创建-删除-环境"><a href="#1-1-2-创建-删除-环境" class="headerlink" title="1.1.2 创建/删除 环境"></a>1.1.2 创建/删除 环境</h4><p>命令创建python版本为X.X、名字为 env_name 的虚拟环境。env_name文件可以在Anaconda安装目录 envs文件下找到；</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n env_name python=<span class="number">3.8</span></span><br></pre></td></tr></table></figure><p>在conda环境下，输入以下命令查看当前存在的环境：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda env list</span><br></pre></td></tr></table></figure><p>删除环境：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda remove -n env_name --all</span><br><span class="line">conda env remove -n env_name</span><br></pre></td></tr></table></figure><p>重命名环境（将 —clone 后面的环境重命名成 -n 后面的名字）</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n python3 --clone py3  # 将 py3 重命名为 python3</span><br></pre></td></tr></table></figure><p>创建完成环境之后，系统会提示如何 进入和退出环境，如下:</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda activate env_name  # 进入环境</span><br><span class="line">conda deactivate# 退出环境</span><br></pre></td></tr></table></figure><h3 id="1-2-安装PySide6并配置PyCharm-Vscode"><a href="#1-2-安装PySide6并配置PyCharm-Vscode" class="headerlink" title="1.2 安装PySide6并配置PyCharm/Vscode"></a>1.2 安装PySide6并配置PyCharm/Vscode</h3><h4 id="1-2-1-安装PySide6"><a href="#1-2-1-安装PySide6" class="headerlink" title="1.2.1 安装PySide6"></a>1.2.1 安装PySide6</h4><ul><li>PySide6是来自于Qt for Python项目的官方Python模块，它提供了对完整Qt 6.0+框架的访问。</li><li>Qt Designer 拖拽式的界面设计工具：通过拖拽的方式放置控件，并实时查看控件效果进行快速UI设计</li><li>PyUIC：主要是把Qt Designer生成的.ui文件换成.py文件</li><li>PyRCC主要是把编写的.qrc资源文件换成.py文件</li></ul><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install PySide6</span><br></pre></td></tr></table></figure><p>为了更加便捷处理图形化界面，我们配置编译器环境</p><h4 id="1-2-2-配置PyCharm"><a href="#1-2-2-配置PyCharm" class="headerlink" title="1.2.2 配置PyCharm"></a>1.2.2 配置PyCharm</h4><h4 id="1-2-3-配置Vscode"><a href="#1-2-3-配置Vscode" class="headerlink" title="1.2.3 配置Vscode"></a>1.2.3 配置Vscode</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Qt </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>核心框架汇总</title>
       <link href="/2022/09/20/%E6%A0%B8%E5%BF%83%E6%A1%86%E6%9E%B6%E6%B1%87%E6%80%BB/"/>
       <url>/2022/09/20/%E6%A0%B8%E5%BF%83%E6%A1%86%E6%9E%B6%E6%B1%87%E6%80%BB/</url>
