@@ -6,7 +6,7 @@
   <link href="http://wujundehuda.github.io/atom.xml" rel="self"/>
   
   <link href="http://wujundehuda.github.io/"/>
-  <updated>2022-09-20T12:30:02.551Z</updated>
+  <updated>2022-10-04T16:26:31.632Z</updated>
   <id>http://wujundehuda.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日寄-1</title>
+    <link href="http://wujundehuda.github.io/2022/10/05/%E6%97%A5%E5%AF%84-1/"/>
+    <id>http://wujundehuda.github.io/2022/10/05/%E6%97%A5%E5%AF%84-1/</id>
+    <published>2022-10-04T16:25:51.000Z</published>
+    <updated>2022-10-04T16:26:31.632Z</updated>
+    
+    <content type="html"><![CDATA[<p>本来是昨天晚上想写日寄的</p><p>因为国庆摆烂了三天</p><p>所以觉得有写点日寄的必要了</p><p>开始想着放假三天最寄的是啥</p><p>原来是没有放假七天</p><p>喉咙疼想睡觉算寄</p><p>喉咙疼没发烧算寄得不彻底</p><p>只写了一点点代码算寄</p><p>没写大物概率论算寄</p><p>还是不算寄</p><p>又鸽了我导一周</p><p>听我导讲idea的时候我觉得我导是最帅的</p><p>自己动手写才发现</p><p>我学的是cv</p><p>我也只会用cv来写cv</p><p>早上我导叫我跑一段代码</p><p>我以为是他也觉得我的脑子搞不定那个项目</p><p>从下午睡醒跑到晚上睡觉</p><p>我才明白原来我和我导的差距其实不大</p><p>都跑不起来一个跑不起来的dome</p><p>我喜欢折腾</p><p>折腾浪费时间</p><p>我不喜欢浪费时间</p><p>但是折腾能让我觉得我不在读高中</p><p>折腾成功了</p><p>继续下一个折腾</p><p>折腾失败了</p><p>继续下一个折腾</p><p>每次折腾完后</p><p>总会发现自己多折腾了很多没必要的东西</p><p>原来有人已经帮你摆好了工具</p><p>不得不感叹前人的牛逼</p><p>我觉得自己不应该当程序员</p><p>或许我适合当公务员</p><p>在不知道咋做的时候折腾</p><p>在知道咋做后折腾</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本来是昨天晚上想写日寄的&lt;/p&gt;
+&lt;p&gt;因为国庆摆烂了三天&lt;/p&gt;
+&lt;p&gt;所以觉得有写点日寄的必要了&lt;/p&gt;
+&lt;p&gt;开始想着放假三天最寄的是啥&lt;/p&gt;
+&lt;p&gt;原来是没有放假七天&lt;/p&gt;
+&lt;p&gt;喉咙疼想睡觉算寄&lt;/p&gt;
+&lt;p&gt;喉咙疼没发烧算寄得不彻底&lt;/p&gt;
+&lt;p&gt;只写了一点</summary>
+      
+    
+    
+    
+    <category term="日寄" scheme="http://wujundehuda.github.io/categories/%E6%97%A5%E5%AF%84/"/>
+    
+    
+    <category term="碎碎念" scheme="http://wujundehuda.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>PySide6配置及使用</title>
