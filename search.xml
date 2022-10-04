@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>pytorch环境安装</title>
+      <link href="/2022/10/05/pytorch%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/"/>
+      <url>/2022/10/05/pytorch%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、安装CUDA"><a href="#一、安装CUDA" class="headerlink" title="一、安装CUDA"></a>一、安装CUDA</h2><p>CUDA是建立在NVIDIA的CPUs上的一个通用并行计算平台和编程模型，基于CUDA编程可以利用GPUs的并行计算引擎来更加高效地解决比较复杂的计算难题。</p><p>本机显卡为GTX960，更新显卡驱动后前往<a href="https://developer.nvidia.com/cuda-toolkit-archive">官网</a>下载CUDA，选择适合自己GPU的版本</p><p>下载完成后一路确认安装，安装完成后会自动配置环境变量</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#本机的CUDA路径</span><br><span class="line">C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA</span><br><span class="line">&gt;&gt; nvcc --version##检测CUDA是否安装成功</span><br><span class="line">nvcc: NVIDIA (R) Cuda compiler driver</span><br><span class="line">Copyright (c) 2005-2022 NVIDIA Corporation</span><br><span class="line">Built on Wed_Jun__8_16:59:34_Pacific_Daylight_Time_2022</span><br><span class="line">Cuda compilation tools, release 11.7, V11.7.99</span><br><span class="line">Build cuda_11.7.r11.7/compiler.31442593_0</span><br></pre></td></tr></table></figure><h2 id="二、安装cuDNN"><a href="#二、安装cuDNN" class="headerlink" title="二、安装cuDNN"></a>二、安装cuDNN</h2><p>NVIDIA cuDNN是用于深度神经网络的GPU加速库。它强调性能、易用性和低内存开销。NVIDIA cuDNN可以集成到更高级别的机器学习框架中，如谷歌的Tensorflow、加州大学伯克利分校的流行caffe软件。简单的<strong>插入式设计</strong>可以让开发人员专注于设计和实现神经网络模型，而不是简单调整性能，同时还可以在GPU上实现高性能现代并行计算。</p><p>在<a href="https://developer.nvidia.com/cudnn">官网</a>注册后填写问卷下载与自己CUDA版本相同的cuDNN，解压完成后将三个文件夹中的文件剪切到CUDA相应的目录下</p><p><img src="https://raw.githubusercontent.com/WuJunDehuda/PicGo/1664590820238-bbbc75d5-f9a6-4321-a471-5e6d6baa18d1.png" alt="img"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">./cuda/bin/.dll 复制到 ./NVIDIA GPU Computing Tookit/CUDA/vn.n/bin/</span><br><span class="line">./cuda/include/.dll 复制到 ./NVIDIA GPU Computing Tookit/CUDA/vn.n/include/</span><br><span class="line">./cuda/lib/x64/**.dll 复制到 ./NVIDIA GPU Computing Tookit/CUDA/vn.n/lib/x64/</span><br></pre></td></tr></table></figure><h2 id="三、安装pytorch"><a href="#三、安装pytorch" class="headerlink" title="三、安装pytorch"></a>三、安装pytorch</h2><h3 id="3-1-安装anaconda"><a href="#3-1-安装anaconda" class="headerlink" title="3.1 安装anaconda"></a>3.1 安装anaconda</h3><p>为了相对纯净的学习环境，避免各种包的版本问题，我选择使用anaconda安装pytorch。</p><p>to blog</p><h3 id="3-2-安装pytorch"><a href="#3-2-安装pytorch" class="headerlink" title="3.2 安装pytorch"></a>3.2 安装pytorch</h3><p>进入新建的环境后，我们使用pip安装torch</p><p>进入pytorch<a href="https://pytorch.org/get-started/locally/">官网</a>选择pytorch版本，复制命令行</p><p><img src="https://cdn.nlark.com/yuque/0/2022/png/29437699/1664591300985-79a78d9c-7633-43a3-9d89-6a72ba17cd3d.png" alt="img"></p><h3 id="注意！按照你的python版本选择支持的torch！"><a href="#注意！按照你的python版本选择支持的torch！" class="headerlink" title="注意！按照你的python版本选择支持的torch！"></a>注意！按照你的python版本选择支持的torch！</h3><p>安装不兼容版本的pytorch后</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import torch</span><br><span class="line">torch.cuda.is_available</span><br><span class="line"></span><br><span class="line">false</span><br><span class="line">Torch not compiled with CUDA enabled</span><br></pre></td></tr></table></figure><p>torch 报错 Torch not compiled with CUDA enabled 无法找到GPU</p><p>被折磨一整个晚上后发现了该篇博客（找问题时一定要附上自己的版本！）</p><p><a href="https://blog.csdn.net/qq_46037444/article/details/125991109">https://blog.csdn.net/qq_46037444/article/details/125991109</a></p><p>安装的torch版本与python版本不兼容，系统默认安装了CPU版本</p><hr><p>安装完成后进入python环境</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">import torch</span><br><span class="line">torch.cuda.is_available()</span><br><span class="line"></span><br><span class="line">true##返回true</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计动手学深度学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 环境配置 </tag>
+            
+            <tag> 深度学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日寄-1</title>
       <link href="/2022/10/05/%E6%97%A5%E5%AF%84-1/"/>
       <url>/2022/10/05/%E6%97%A5%E5%AF%84-1/</url>
