@@ -225,6 +225,13 @@
   </url>
   
   <url>
+    <loc>http://wujundehuda.github.io/tags/Docker/</loc>
+    <lastmod>2022-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://wujundehuda.github.io/tags/Qt/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -233,13 +240,6 @@
   
   <url>
     <loc>http://wujundehuda.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-11-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://wujundehuda.github.io/tags/Docker/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -260,13 +260,6 @@
   </url>
   
   <url>
-    <loc>http://wujundehuda.github.io/tags/LaTeX/</loc>
-    <lastmod>2022-11-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://wujundehuda.github.io/tags/%E6%81%8B%E7%88%B1/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -275,6 +268,13 @@
   
   <url>
     <loc>http://wujundehuda.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://wujundehuda.github.io/tags/LaTeX/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -339,14 +339,14 @@
   </url>
   
   <url>
-    <loc>http://wujundehuda.github.io/categories/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/</loc>
+    <loc>http://wujundehuda.github.io/categories/%E6%81%8B%E7%88%B1%E5%91%A8%E8%AE%B0/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://wujundehuda.github.io/categories/%E6%81%8B%E7%88%B1%E5%91%A8%E8%AE%B0/</loc>
+    <loc>http://wujundehuda.github.io/categories/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
